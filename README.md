@@ -1,2 +1,2 @@
 # Boechera falcata article
-Data related to Boechera falcate genome assembly and analysis publication
+Data related to Boechera falcata genome assembly and analysis publication
