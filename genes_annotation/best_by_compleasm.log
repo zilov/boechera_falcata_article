@@ -1,0 +1,8 @@
+/opt/Augustus/scripts/getAnnoFastaFromJoingenes.py -g /media/eternus1/data/plants/boechera_falcata/users/zilov/annotation/braker_3_last/falcata/braker/genome.fa -f /media/eternus1/data/plants/boechera_falcata/users/zilov/annotation/braker_3_last/falcata/braker/GeneMark-EP/genemark.gtf -o /media/eternus1/data/plants/boechera_falcata/users/zilov/annotation/braker_3_last/falcata/braker/bbc/genemark -s True
+/opt/compleasm_kit/compleasm.py protein -p /media/eternus1/data/plants/boechera_falcata/users/zilov/annotation/braker_3_last/falcata/braker/bbc/genemark.aa -l brassicales_odb10 -t 48 -o /media/eternus1/data/plants/boechera_falcata/users/zilov/annotation/braker_3_last/falcata/braker/bbc/genemark
+/opt/compleasm_kit/compleasm.py protein -p /media/eternus1/data/plants/boechera_falcata/users/zilov/annotation/braker_3_last/falcata/braker/braker.aa -l brassicales_odb10 -t 48 -o /media/eternus1/data/plants/boechera_falcata/users/zilov/annotation/braker_3_last/falcata/braker/bbc/braker
+/opt/compleasm_kit/compleasm.py protein -p /media/eternus1/data/plants/boechera_falcata/users/zilov/annotation/braker_3_last/falcata/braker/augustus.hints.aa -l brassicales_odb10 -t 48 -o /media/eternus1/data/plants/boechera_falcata/users/zilov/annotation/braker_3_last/falcata/braker/bbc/augustus
+BRAKER is missing 0.52 BUSCOs.
+GeneMark is missing 1.46 BUSCOs.
+Augustus is missing 0.54 BUSCOs.
+The BRAKER gene set /media/eternus1/data/plants/boechera_falcata/users/zilov/annotation/braker_3_last/falcata/braker/braker.gtf is the best one. It lacks 0.52% BUSCOs.
